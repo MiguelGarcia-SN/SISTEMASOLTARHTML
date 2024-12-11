@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>MARTE</title>
+    <style>
+        body {
+            background-image: url('538127.jpg'); /* Imagem de fundo de Marte */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            color: white; /* Define a cor do texto */
+            margin: 0; /* Remove as margens padrão */
+            font-family: Arial, sans-serif; /* Fonte mais clara para leitura */
+        }
+        h1 {
+            text-align: center; /* Centraliza o texto */
+            padding-top: 20px; /* Espaço entre o topo e o título */
+            font-size: 80px; /* Tamanho grande do título */
+            color: #FFFF00; /* Cor amarela para o título */
+            text-shadow: 0 0 20px #FFFF00; /* Efeito de brilho no título */
+        }
+        h2 {
+            font-size: 28px;
+            color: #FFA500; /* Cor laranja para subtítulos */
+            font-weight: bold; /* Deixa o subtítulo em negrito */
+            text-shadow: 0 0 15px #FFA500; /* Efeito de brilho nos subtítulos */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            color: #FFFF00;
+        }
+        .bullet-list {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #FFA500;
+            text-shadow: 0 0 10px #FFA500;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 50%;
+        }
+        form label {
+            color: #FFFF00;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: none;
+        }
+        form input[type="submit"] {
+            background-color: #FFA500;
+            color: white;
+            cursor: pointer;
+        }
+        a {
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            color: #FFFF00;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>|| PLANETA MARTE ||</h1>
+    <p>Marte, também conhecido como o "Planeta Vermelho", é o quarto planeta do Sistema Solar em distância do Sol. Ele é famoso por sua cor avermelhada, causada pelo óxido de ferro presente em sua superfície. É um dos planetas mais estudados devido à possibilidade de ter abrigado vida no passado e por ser um dos alvos principais para exploração espacial no futuro.</p>
+
+    <h2>Características principais:</h2>
+    <table>
+        <tr>
+            <th>Característica</th>
+            <th>Detalhes</th>
+        </tr>
+        <tr>
+            <td><b>Composição</b></td>
+            <td>Planeta rochoso com uma superfície rica em óxido de ferro, conferindo sua cor avermelhada.</td>
+        </tr>
+        <tr>
+            <td><b>Atmosfera</b></td>
+            <td>Composta principalmente por dióxido de carbono (95%), com traços de nitrogênio e argônio.</td>
+        </tr>
+        <tr>
+            <td><b>Temperatura Média</b></td>
+            <td>-60 °C, com variações extremas dependendo da localização e da época do ano.</td>
+        </tr>
+        <tr>
+            <td><b>Satélites Naturais</b></td>
+            <td>Dois: Fobos e Deimos.</td>
+        </tr>
+        <tr>
+            <td><b>Movimento</b></td>
+            <td>Rotação: cerca de 24 horas e 37 minutos; Translação: aproximadamente 687 dias terrestres.</td>
+        </tr>
+    </table>
+
+    <h2>Fatos importantes:</h2>
+    <ul class="bullet-list">
+        <li><span class="highlight">Exploração:</span> Marte tem sido explorado por diversas sondas e robôs, como o Perseverance e o Curiosity, que buscam sinais de vida passada.</li>
+        <li><span class="highlight">Água:</span> Há evidências de água congelada nos polos e de fluxos de água salgada no passado.</li>
+        <li><span class="highlight">Colonização:</span> É um dos principais candidatos para futuras missões tripuladas e possíveis colônias humanas.</li>
+    </ul>
+
+    <h2>Formulário de Inscrição para Astronauta:</h2>
+    <form action="#" method="post">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required><br>
+
+        <label for="experiencia">Experiência em Missões Espaciais:</label><br>
+        <textarea id="experiencia" name="experiencia" placeholder="Descreva sua experiência..." rows="4"></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <a href="index.html">VOLTAR</a>
+</body>
+</html>
